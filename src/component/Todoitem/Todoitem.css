@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.Listitems{
+    width: 40%;
+    margin: auto;
+}
+.Listitems .head{
+    color: #fff;
+    background-color: rgb(117, 117, 224);
+    display: flex;    
+}
+.Listitems .content{
+    color: blueviolet;
+    background-color: #fff;
+    /* display: flex; */
+}
+.Listitems .head span:first-child{
+    width: 55%;
+}
+.Listitems .content span:first-child{
+    width: 55%;
+}
+.Listitems .head span:nth-child(2){
+    width: 30%;
+}
+.Listitems .content span:nth-child(2){
+    width: 30%;
+}
+.Listitems .head span:last-child{
+    width: 15%;
+}
+.Listitems .content span:last-child{
+    width: 15%;
+    cursor: pointer;
+}
+.Listitems span{
+    border: solid 1px #ddd;
+    display: inline-block;
+   
+    text-align: center;
+    padding: 10px 0;
+
+}
+.p p{
+    padding: 10px 0;
+    margin: 0;
+}
